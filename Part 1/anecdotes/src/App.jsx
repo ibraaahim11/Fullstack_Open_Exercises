@@ -36,6 +36,7 @@ const App = () => {
       <Button text="next anecdote" onClick={setRandomAnecdote} />
       <h1>Anecdote with most votes</h1>
       <p>{anecdotes[mostVotedIndex]}</p>
+      <p>has {votes[mostVotedIndex]} votes</p>
     </div>
   );
 };
